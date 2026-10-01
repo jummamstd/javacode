@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        Scanner numbers =new Scanner(System.in);
+        System.out.println("First Number:");
+        int num01=numbers.nextInt();
+        System.out.println("Second Number:");
+        int num02=numbers.nextInt();
+       int temp =num01;
+       num01=num02;
+       num02=temp;
+
+        System.out.println("After Swoping");
+        System.out.println("First Number:"+num02);
+        System.out.println("Second Number:"+num01);
+        
+        
+        
+       
+        
+        numbers.close();
+
+    }
+}
