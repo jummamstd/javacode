@@ -1,0 +1,9 @@
+public class main {
+    public static void main(String[] args) {
+        double myVar;
+        myVar = 550.6475;
+        myVar = myVar +10;
+        System.out.println("Value of myVar is :"+myVar);
+        
+    }
+}
