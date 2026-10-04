@@ -1,0 +1,9 @@
+public class main {
+    public static void main(String[] args) {
+        int i= 1;
+        do {
+            System.out.println("Let Me Go!!");
+            i++;
+        } while( i<=5);
+    }
+}
