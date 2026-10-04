@@ -1,0 +1,15 @@
+public class main {
+  public static void main(String[] args){
+     evenOrodd(99);
+    }
+     static void evenOrodd(int x){
+        if( x %2 ==0){
+            System.out.println("Even");
+        }else{
+                System.out.println("Odd");
+            }
+        }
+     }
+    
+
+
