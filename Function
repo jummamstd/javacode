@@ -1,0 +1,17 @@
+public class main {
+  public static void main(String[] args){
+    sayHi();
+    int Addition = getSum(10,50);
+    System.out.println("Result:" +Addition);
+  } 
+    static int getSum(int x, int y){
+        int sum =x+y;
+
+        return sum;
+    }
+    static void sayHi(){
+        System.out.println("HI");
+    }
+    
+}
+
