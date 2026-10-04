@@ -1,0 +1,56 @@
+
+import java.util.Scanner;
+
+public class main {
+
+    public static void main(String[] args) {
+
+        int x, y;
+
+        System.out.println("Enter value of x and y:");
+
+        Scanner sc = new Scanner(System.in);
+
+        x = sc.nextInt();
+        y = sc.nextInt();
+
+        int r = add(x, y);
+        System.out.println("Addition: " + r);
+
+        r = sub(x, y);
+        System.out.println("Subtraction: " + r);
+
+        r = mul(x, y);
+        System.out.println("Multiplication: " + r);
+
+        r = div(x, y);
+        System.out.println("Division: " + r);
+
+        sc.close();
+    }
+
+    static int add(int x, int y) {
+        int result = x + y;
+        return result;
+    }
+
+    static int sub(int x, int y) {
+        int result = x - y;
+        return result;
+    }
+
+    static int mul(int x, int y) {
+        int result = x * y;
+        return result;
+    }
+
+    static int div(int x, int y) {
+        int result = x / y;
+        return result;
+    }
+}
+
+
+    
+
+
