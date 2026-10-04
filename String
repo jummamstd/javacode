@@ -1,0 +1,9 @@
+
+public class main {
+  public static void main(String[] args) {
+    String st = "Hi, I am good ";
+    String s2 = new String("Bangladesh");
+    System.out.println(st+ "" +s2);
+       
+    }
+}
